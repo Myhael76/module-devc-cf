@@ -1,26 +1,23 @@
 {
-  "name": "cfn-devcontainer-01",
+  "name": "cfn-01",
 
   // keep this synced to the .env file manually. TODO: find a way to keep them synced automatically
   "workspaceFolder": "/workspace",
-  "dockerComposeFile": [
-    "./docker-compose.yml"
-  ],
+  "dockerComposeFile": ["./docker-compose.yml"],
 
-
-  "service": "aws-tf-01",
+  "service": "cfn-devc",
   "shutdownAction": "none",
   "customizations": {
-		// Configure properties specific to VS Code.
-		"vscode": {
-			// Set *default* container specific settings.json values on container create.
-			"settings": {
-				"editor.formatOnSave": true,
-				"files.insertFinalNewline": true,
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Set *default* container specific settings.json values on container create.
+      "settings": {
+        "editor.formatOnSave": true,
+        "files.insertFinalNewline": true,
         "workbench.colorTheme": "Default Dark Modern"
-			},
-			// Add the IDs of extensions you want installed when the container is created.
-			"extensions": [
+      },
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
         "amazonwebservices.aws-toolkit-vscode",
         "bridgecrew.checkov",
         "donjayamanne.githis",
@@ -34,7 +31,7 @@
         "trunk.io",
         "vitabletech.snippetmaster",
         "aws-scripting-guy.cform"
-			]
-		}
-	}
+      ]
+    }
+  }
 }

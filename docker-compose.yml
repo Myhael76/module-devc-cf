@@ -4,3 +4,8 @@ services:
   cfn-devc:
     build:
       context: ./build
+      args:
+        - __WORKSPACE_FOLDER=${WORKSPACE_FOLDER}
+    volumes:
+      - ../../:/${WORKSPACE_FOLDER}/
+    command: [ sleep, infinity ]
