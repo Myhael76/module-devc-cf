@@ -21,6 +21,7 @@ RUN apt-get -q update \
         cfn-nag \
     && pip install --no-cache-dir\
         cfn-lint \
+        cfripper \
         cloudformation-cli \
         pydot \    
     && wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | gpg --dearmor | sudo tee /usr/share/keyrings/trivy.gpg > /dev/null \
