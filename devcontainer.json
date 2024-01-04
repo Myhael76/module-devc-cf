@@ -13,7 +13,7 @@
     "vscode": {
       // Set *default* container specific settings.json values on container create.
       "settings": {
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "files.insertFinalNewline": true,
         "workbench.colorTheme": "Default Dark Modern"
       },
@@ -22,6 +22,7 @@
         "amazonwebservices.aws-toolkit-vscode",
         "aws-scripting-guy.cform",
         "bridgecrew.checkov",
+        "eastman.vscode-cfn-nag" ,
         "dannysteenman.cloudformation-yaml-snippets",
         "donjayamanne.githis",
         "dotenv.dotenv-vscode",
@@ -33,6 +34,7 @@
         "necatiarslan.aws-access-vscode-extension",
         "oderwat.indent-rainbow",
         "sebastianbille.iam-legend",
+        "timonwong.shellcheck",
         "trunk.io",
         "vitabletech.snippetmaster",
         "yzhang.markdown-all-in-one"
