@@ -12,7 +12,9 @@ RUN apt-get -q update \
         gnupg \
         apt-transport-https \
         ca-certificates \
+        graphviz \
         lsb-release \
+        python3-diagrams \
         python3-pip \
         ruby \
         unzip \
